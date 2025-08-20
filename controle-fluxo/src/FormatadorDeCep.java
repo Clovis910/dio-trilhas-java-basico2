@@ -8,7 +8,7 @@ public class FormatadorDeCep {
             System.out.println(cepFormatado);
         } catch (CepInvalidoException e) {
             // TODO Auto-generated catch block
-           System.err.println("O CEP não corresponde a regra de negocio");
+           //System.err.println("O CEP não corresponde a regra de negocio");
         }
 
         
