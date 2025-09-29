@@ -24,7 +24,7 @@ public class Banco {
 
     
 
-       this.contas.forEach(contas -> System.out.println(contas.getNumero()));
+       this.contas.forEach(contas -> System.out.println(contas.getNumero()+ " " + contas.getCliente().getNome()));
 
     }
 

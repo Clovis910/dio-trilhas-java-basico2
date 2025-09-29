@@ -15,6 +15,9 @@ public abstract class Conta implements IConta{
         this.cliente = cliente;
     }
 
+    public Cliente getCliente() {
+        return cliente;
+    }
     public int getAgencia() {
         return agencia;
     }
